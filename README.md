@@ -15,18 +15,19 @@ where my thesis achieved a 5.87% path-length improvement over RRT* with 98% succ
 - Kalman filter state estimation for robot pose tracking
 - Gazebo simulation and TurtleBot3 navigation
 - Autonomous vehicle planning and control systems
+- Embedded networking & real-time CAN bus systems — SocketCAN, J1939, RTOS integration
 
 ---
 
 ## Key Skills
 
-| Robotics | Programming | Tools |
-|----------|-------------|-------|
-| ROS2 Jazzy | Python | Gazebo |
-| Nav2 | C++ | Linux/Ubuntu |
-| Motion Planning | Git/GitHub | WSL2 |
-| TF2 / URDF | NumPy/Matplotlib | LaTeX |
-| Kalman Filter | | Docker |
+| Robotics | Embedded & Networking | Programming | Tools |
+|----------|------------------------|-------------|-------|
+| ROS2 Jazzy | SocketCAN / CAN bus | Python | Gazebo |
+| Nav2 | J1939 (PGN/SPN, BAM transport) | C++ | Linux/Ubuntu |
+| Motion Planning | Zephyr RTOS | Git/GitHub | WSL2 |
+| TF2 / URDF | TCP/UDP/Serial | NumPy/Matplotlib | LaTeX |
+| Kalman Filter | DBC / cantools | | Docker |
 
 ---
 
@@ -45,6 +46,19 @@ My MES thesis — a hybrid motion planning algorithm for autonomous mobile robot
 - Independent 50-trial reproducibility benchmark included in repo
 
 [View Repository](https://github.com/Asif-Ucchwas/hybrid-a-star-rrtstar-path-planning) | [View Thesis on ProQuest](https://www.proquest.com/dissertations-theses/obstacle-avoidance-optimal-path-planning/docview/32699575)
+
+---
+
+### CAN-Net: Embedded Networking & Real-Time CAN Bus Communication Stack
+
+A from-scratch embedded networking stack — TCP/UDP/Serial foundations, SocketCAN, the J1939 automotive protocol, and RTOS integration — built entirely in software/emulation.
+
+- Real J1939 signal encoding (PGN/SPN) and multi-packet BAM transport for messages exceeding CAN's 8-byte limit
+- Zephyr RTOS bridged to a real Linux CAN interface, with timestamped proof of preemptive scheduling
+- 360-trial benchmark comparing CAN vs UDP vs TCP under varying load, with documented methodology and an honest analysis of what the results do and don't mean
+- Independent of thesis work — built to close a specific embedded/networking skill gap
+
+[View Repository](https://github.com/Asif-Ucchwas/can-net)
 
 ---
 
