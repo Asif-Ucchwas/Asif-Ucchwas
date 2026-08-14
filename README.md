@@ -1,9 +1,8 @@
 <h1 align="center">Md Asifuzzaman</h1>
-<h3 align="center"><b>I build robotics and autonomous systems — planning, perception, controls, and the embedded/cloud plumbing underneath them.</b></h3>
-
-<p align="center" style="font-size:0.9em">
-My work so far has been on ground robots and automotive-adjacent systems (CAN bus, real-time control, functional safety) — I'm building toward autonomous vehicles and industrial robotics next.
-</p>
+<h3 align="center">
+<b>I build robotics and autonomous systems — planning, perception, controls, and the embedded/cloud plumbing underneath them.</b><br>
+<span style="font-size:0.75em; font-weight:normal;">My work so far has been on ground robots and automotive-adjacent systems (CAN bus, real-time control, functional safety) — I'm building toward autonomous vehicles and industrial robotics next.</span>
+</h3>
 
 <p align="center">
 M.E.S. Electrical & Electronics Engineering, Lamar University (2026) · Beaumont, TX · open to relocating anywhere in the US
