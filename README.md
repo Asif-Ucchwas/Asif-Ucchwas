@@ -72,6 +72,24 @@ Then I benchmarked the whole thing against my own published thesis planner — i
 
 ---
 
+## 📊 Proof, not just claims
+
+Four real results, pulled straight from each repo's own benchmark output — no mockups.
+
+**MultiPlan — RRT\* with Reeds-Shepp steering, cross-validated**
+![RRT* benchmark](assets/multiplan-rrt-star.png)
+
+**ControlLoop-RT — tracking error across controllers and conditions**
+![RMS tracking error comparison](assets/controlloop-rt-rms-error.png)
+
+**CAN-Net — CAN vs UDP vs TCP latency, 360 trials**
+![Transport comparison](assets/can-net-latency-comparison.png)
+
+**TelemOps — live Grafana dashboard against real ingested data**
+![TelemOps live dashboard](assets/telemops-dashboard.png)
+
+---
+
 ## 🧰 What I can actually build with — the detailed toolkit
 
 This is the detail a short bio can't hold. Every line below is something I built and can walk you through — not a buzzword picked up from somewhere else. Each one links back to the project where it's proven.
