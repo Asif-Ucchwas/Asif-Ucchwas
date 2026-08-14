@@ -3,10 +3,9 @@
 <b>I build robotics and autonomous systems — planning, perception, controls, and the<br>
 embedded/cloud plumbing underneath them.</b>
 </h3>
-
-<p align="center"><small>My work so far has been on ground robots and automotive-adjacent<br>
+<p align="center"><small><b>My work so far has been on ground robots and automotive-adjacent<br>
 systems (CAN bus, real-time control, functional safety) — I'm building<br>
-toward autonomous vehicles and industrial robotics next.</small></p>
+toward autonomous vehicles and industrial robotics next.</b></small></p>
 
 <p align="center">
 M.E.S. Electrical & Electronics Engineering, Lamar University (2026) · Beaumont, TX · open to relocating anywhere in the US
